@@ -17,8 +17,8 @@ def send(sender, password, recipient, post, content):
     body = content
     msg.attach(MIMEText(body, 'plain'))
 
-    filename = 'JK_Resume.pdf'
-    attachment = open('JK_Resume.pdf', "rb")
+    filename = 'Resume.pdf'
+    attachment = open(filename, "rb")
 
     p = MIMEBase('application', 'octet-stream')
     p.set_payload(attachment.read())

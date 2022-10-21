@@ -1,14 +1,16 @@
-def createContent(name, post):
+def createContent(company_name, post):
+    candidate = 'John Doe'
+    university = 'abc'
     content = f'''Dear Sir,
 
-My name is Jayakrishnan V S. I am an Electronics and Communication Engineering graduate from Mar Athanasius College of Engineering. 
+My name is {candidate}. I am a graduate from {university}. 
                 
-I would like to take this opportunity to submit my resume for the post of {post} at your company {name}.
+I would like to take this opportunity to submit my resume for the post of {post} at your company {company_name}.
 
 I am a hardworking person and a quick learner. I am very confident that if given the opportunity  I will be an asset to your organization.
 
 I kindly request you to consider my candidature.
 
 Yours Sincerely
-Jayakrishnan V S'''
+{candidate}'''
     return content
